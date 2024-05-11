@@ -28,8 +28,9 @@ server.listen(PORT, HOST, () => {
     console.log(`Server is running at http://${HOST}:${PORT}/`);
 });
 
-/* Line 5 : Create HTTP server
-Line 6 : Enable CORS
+/* 
+Line 6 : Create HTTP server
+Line 7 : Enable CORS
 Line 9: Simulating asynchronous operation with random delay
 Line 10 : Handling GET request
 Line 18 : Handle other routes
